@@ -13,7 +13,7 @@ NPM
     $ npm install swift
     
 ### Code
-    var Swift = require('./swift');
+    var Swift = require('swift');
 
     var swift = new Swift({
         user: 'auth-user'
