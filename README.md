@@ -16,10 +16,10 @@ NPM
     var Swift = require('./swift');
 
     var swift = new Swift({
-        user: req.body.username
-      , pass: req.body.password
-      , host: '172.17.17.76'
-      , port: 8080
+        user: 'auth-user'
+      , pass: 'auth-key'
+      , host: 'auth.api.yourcloud.com'
+      , port: 443
     }, function(req) {
       if (req.statusCode == 200)
         // success
