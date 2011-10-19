@@ -46,4 +46,4 @@ NPM
     swift.updateObjectMetadata(containerName, objectName, handlerFunction);
     
     // Get Static Content
-    swift.retrieveObject(containerName, objectName, responseObject);
+    swift.get(containerName, objectName, responseObject);
