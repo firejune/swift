@@ -10,7 +10,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "clog": ">= 0.0.1",
+    "clog": ">= 0.1.0",
     "wrap": ">= 0.1.0"
   },
   "repository": {
