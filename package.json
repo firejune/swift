@@ -4,14 +4,13 @@
   "version": "0.0.1",
   "description": "OpenStack Object Storage REST client API for Node.JS",
   "homepage": "http://github.com/firejune/swift",
-  "keywords": [
-    "swift",
-    "OpenStack",
-    "Object Storage"
-  ],
+  "keywords": ["swift", "OpenStack", "Object Storage"],
   "main": "lib/swift",
   "directories": {
     "lib": "lib"
+  },
+  "dependencies": {
+    "clog": ">= 0.0.1"
   },
   "repository": {
     "type": "git",
