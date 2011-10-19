@@ -44,3 +44,6 @@ NPM
     swift.deleteObject(containerName, objectName, handlerFunction);
     swift.retrieveObjectMetadata(containerName, objectName, handlerFunction);
     swift.updateObjectMetadata(containerName, objectName, handlerFunction);
+    
+    // Get Static Content
+    swift.retrieveObject(containerName, objectName, responseObject);
