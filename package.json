@@ -1,10 +1,10 @@
 {
   "name": "swift",
   "author": "Firejune (http://firejune.com/)",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "OpenStack Object Storage(Swift) REST client API for Node.JS",
   "homepage": "http://github.com/firejune/swift",
-  "keywords": ["swift", "OpenStack", "Object Storage"],
+  "keywords": ["Swift", "OpenStack", "Object Storage"],
   "main": "lib/swift",
   "directories": {
     "lib": "lib"
