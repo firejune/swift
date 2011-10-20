@@ -20,8 +20,8 @@ NPM
       , pass: 'auth-key'
       , host: 'auth.api.yourcloud.com'
       , port: 443
-    }, function(req) {
-      if (req.statusCode == 200)
+    }, function(result, headers) {
+      if (swift.account && swift.token)
         // success
       else
         // error
