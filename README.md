@@ -39,7 +39,8 @@ NPM
 
     // Object Services
     swift.retrieveObject(containerName, objectName, handlerFunction);
-    swift.createObject(containerName, objectName, handlerFunction);
+    swift.createObject(fileData, containerName, objectName, handlerFunction);
+    swift.updateObject(fileData, containerName, objectName, handlerFunction);
     swift.copyObject(containerName, destObject, fromContainer, sourceObject, handlerFunction);
     swift.deleteObject(containerName, objectName, handlerFunction);
     swift.retrieveObjectMetadata(containerName, objectName, handlerFunction);
@@ -47,3 +48,7 @@ NPM
     
     // Get Static Content
     swift.get(containerName, objectName, responseObject);
+
+### License
+
+MIT <3
