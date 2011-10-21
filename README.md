@@ -46,8 +46,8 @@ NPM
     swift.retrieveObjectMetadata(containerName, objectName, handlerFunction);
     swift.updateObjectMetadata(containerName, objectName, handlerFunction);
     
-    // Get Static Content
-    swift.get(containerName, objectName, responseObject);
+    // Get Object Binary
+    swift.getFile(containerName, objectName, responseObject);
 
 ### License
 
