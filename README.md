@@ -39,8 +39,8 @@ NPM
 
     // Object Services
     swift.retrieveObject(containerName, objectName, handlerFunction);
-    swift.createObject(fileData, containerName, objectName, handlerFunction);
-    swift.updateObject(fileData, containerName, objectName, handlerFunction);
+    swift.createObject(containerName, objectName, handlerFunction, requestObject);
+    swift.updateObject(containerName, objectName, handlerFunction, requestObject);
     swift.copyObject(containerName, destObject, fromContainer, sourceObject, handlerFunction);
     swift.deleteObject(containerName, objectName, handlerFunction);
     swift.retrieveObjectMetadata(containerName, objectName, handlerFunction);
