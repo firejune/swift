@@ -1,7 +1,7 @@
 {
   "name": "swift",
   "author": "Firejune (http://firejune.com/)",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "OpenStack Object Storage(Swift) REST client API for Node.JS",
   "homepage": "http://github.com/firejune/swift",
   "keywords": ["Swift", "OpenStack", "Object Storage"],
@@ -19,7 +19,7 @@
   },
   "licenses": [{
     "type": "MIT",
-    "url": "http://www.opensource.org/licenses/mit-license.php"
+    "url": "http://firejune.mit-license.org/"
   }],
   "bugs" : {
     "url" : "http://github.com/firejune/swift/issues"
