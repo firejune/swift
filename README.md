@@ -13,6 +13,7 @@ NPM
     $ npm install swift
     
 ### Code
+```javascript
     var Swift = require('swift');
 
     var swift = new Swift({
@@ -48,7 +49,7 @@ NPM
     
     // Get Object Binary
     swift.getFile(containerName, objectName, responseObject);
-
+```
 ### License
 
 MIT <3
